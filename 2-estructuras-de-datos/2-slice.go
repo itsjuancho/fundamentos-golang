@@ -39,4 +39,11 @@ func main() {
 	longitudMeses = len(meses)
 	capacidad = cap(meses)
 	fmt.Printf("La longitud del arreglo meses es %v, y la capacidad es de %v - %p", longitudMeses, capacidad, meses)
+
+	/* ==================== RESUMEN ==================== */
+	grados := []int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11}
+
+	inicio := grados[0:3]
+	final := grados[3:6]
+	fmt.Println(inicio, final)
 }
